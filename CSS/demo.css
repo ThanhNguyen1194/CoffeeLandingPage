@@ -1,0 +1,39 @@
+/* h1: selector 
+text-align : property
+center : value
+*/
+
+/* tag name */
+h1{
+    text-align: center;
+}
+/* class name */
+.heading2{
+    background-color: green;
+}
+/* id  */
+#title2{
+    color:white;
+}
+.section1 p{
+    font-size: 30px;
+}
+/* .section1 > p{
+
+} */
+.section1 span{
+    color: red;
+}
+*{
+    font-weight: bold;
+}
+
+/* div + h3{
+    background-color: red;
+} */
+div ~ h3{
+background-color: yellow;
+}
+p[class="section1"]{
+    background-color: violet;
+}
